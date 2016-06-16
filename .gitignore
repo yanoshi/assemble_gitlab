@@ -1,0 +1,6 @@
+mock_output
+.vagrant/
+.chef/
+.bundle/
+cookbooks/
+volumes/
