@@ -26,3 +26,7 @@ vagrant up
 他のIPにしたい場合等は`Vagrantfile`を適当にいじってあげてください。
 
 http://localhost:10080
+
+
+## ライセンス
+MIT
