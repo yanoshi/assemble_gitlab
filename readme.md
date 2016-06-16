@@ -22,11 +22,17 @@ vagrant up
 
 
 ## 仕様
-以下のURLにGitlabが立ち上がります。
-他のIPにしたい場合等は`Vagrantfile`を適当にいじってあげてください。
+以下のURLにGitlabが立ち上がります。ちなみにSSHのポートは10022です。
 
 http://localhost:10080
 
+他のIPにしたい場合等は`Vagrantfile`を適当にいじってあげてください。
+
+いじった場合は`docker-compose-file/docker-compose.yml`もいい感じに書き換えようね。
+
+
+
+あと、`volumes`に各データは保存されるようになってます。ここをバックアップしておけば事故らないはず。
 
 ## ライセンス
 MIT
